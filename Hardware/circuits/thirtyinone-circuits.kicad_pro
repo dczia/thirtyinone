@@ -1,0 +1,458 @@
+{
+  "board": {
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "other_line_width": 0.15,
+        "silk_line_width": 0.15,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15
+      },
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "rules": {
+        "min_copper_edge_clearance": 0.0,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0
+      },
+      "track_widths": [],
+      "via_dimensions": []
+    },
+    "layer_presets": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_label_syntax": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "extra_units": "error",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "lib_symbol_issues": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "similar_labels": "warning",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "thirtyinone-circuits.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      }
+    ],
+    "meta": {
+      "version": 2
+    },
+    "net_colors": null
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "specctra_dsn": "",
+      "step": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "drawing": {
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "",
+    "plot_directory": "outputs",
+    "spice_adjust_passive_values": false,
+    "spice_external_command": "spice \"%I\"",
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "651b0232-5f86-4322-b924-3ae0b9af0f2a",
+      ""
+    ],
+    [
+      "4af5b6fd-fcc7-42cb-a372-05f36f70345a",
+      "Light the LED"
+    ],
+    [
+      "2a46bccb-4282-44ab-903e-0d1df2640025",
+      "LEDs and Resistors"
+    ],
+    [
+      "b08e7317-0c9d-402a-ad67-9c310ff2d5ee",
+      "RGB Color Mixing"
+    ],
+    [
+      "379a9017-da67-4415-9cbf-8233058fce96",
+      "Storage Tank"
+    ],
+    [
+      "035897f6-accd-473a-a46f-f024bbc78aca",
+      "Diodes"
+    ],
+    [
+      "2d151f34-294f-432b-9bc8-a38a81b5b4d2",
+      "Temperature Sensor"
+    ],
+    [
+      "3ccbb7b3-86df-4cf9-a267-757b12085c29",
+      "Electronic Cat"
+    ],
+    [
+      "762720b7-e61a-47af-b883-0ce7210f3bae",
+      "Resistors in Series and Parallel"
+    ],
+    [
+      "08699a64-1cbc-4a52-a277-798f283be8ee",
+      "Metronone"
+    ],
+    [
+      "44b61b77-188e-4542-94d5-d54e56c20b09",
+      "Electronic Motorcycle"
+    ],
+    [
+      "779e33f8-78f6-4629-9efb-31c92cc5bb0f",
+      "The Blinker"
+    ],
+    [
+      "fde00dc9-ecbb-4e4b-b631-311c232858be",
+      "Light Theremin"
+    ],
+    [
+      "67157977-c3e7-487a-ade9-15fcb57ce83f",
+      "Sunrise - Sunset"
+    ],
+    [
+      "e1d89e4a-a18c-4c88-88bc-1f0520a08557",
+      "Touch Circuit"
+    ],
+    [
+      "fc7aea14-38e7-4b12-8544-b62d767497c8",
+      "Patrol Car Siren"
+    ],
+    [
+      "7e7ee09e-6abb-48e1-b34c-459a24fb8b47",
+      "Light Controlled Switch"
+    ],
+    [
+      "dd9f3c93-e5b9-44cc-9b74-ca2cd16cc932",
+      "Logic AND"
+    ],
+    [
+      "2e0378f1-a6dd-4284-91bb-9d9c3b9bcd99",
+      "Early Bird"
+    ],
+    [
+      "05d56d97-d719-49ce-abe9-857c0d290551",
+      "Audio Osc"
+    ],
+    [
+      "60c6519f-e240-4689-a1e4-33d6ce31e038",
+      "Pulse Osc"
+    ],
+    [
+      "73aab7ae-94c3-4874-ad5a-12681cf4507d",
+      "Logic OR"
+    ],
+    [
+      "ae411e62-31cf-4695-b199-317795be0da7",
+      "Logic NOR"
+    ],
+    [
+      "af07c428-ace2-47e5-bc0e-9c18e8088778",
+      "Grandfather Clock"
+    ],
+    [
+      "48007841-a77a-49df-8ac5-5ca0ba539932",
+      "Code Practice"
+    ],
+    [
+      "e300fa91-0658-4649-8e81-d0545e79b2b7",
+      "Turn Off Delay Osc"
+    ],
+    [
+      "16a04e06-3581-4c8a-841d-9e091f20ef7d",
+      "RS Flip Flop"
+    ],
+    [
+      "63fa1617-4204-41d7-bf58-b7c9d7d63224",
+      "Microcontroller GPIO"
+    ],
+    [
+      "d513ff39-6b16-4431-b926-f25805f55bf6",
+      "Microcontroller RGB"
+    ],
+    [
+      "645e7a29-63c7-4b88-bea5-ba7c09e3ab37",
+      "Microcontroller Frequency Counter"
+    ],
+    [
+      "9e7a4f62-756e-4ca7-bf5b-6fb28d3726d0",
+      "Microcontroller ADC"
+    ],
+    [
+      "a070613e-ba3f-4377-9e44-4a2351f96f21",
+      "Learning About Symbols 1"
+    ],
+    [
+      "04262b44-3822-4572-b711-a1e27474aca1",
+      "Learning About Symbols 2"
+    ],
+    [
+      "8058c8c4-9240-45e4-86f4-fbd0685fa846",
+      "Learning About Schematics"
+    ]
+  ],
+  "text_variables": {}
+}
